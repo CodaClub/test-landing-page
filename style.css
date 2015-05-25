@@ -1,0 +1,64 @@
+/* style.css    */
+/* Coda Club    */
+
+body,
+p {
+	background-position: center top;
+	margin: 0;
+}
+
+.wrap {
+	margin: 0 auto;
+	max-width: 1270px;
+}
+
+#section1 {
+	background: url(images/hero.jpg);
+	color: #fff;
+	height: 803px;
+}
+
+#menu {
+  left: 50px;
+  position: absolute;
+  top: 100px;
+}
+
+#section1 p {
+	font-size: 16px;
+	padding: 245px 0 35px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#websites {
+	border: solid 2px #fff;
+	display: inline-block;
+	font-size: 60px;
+	margin: 0 auto;
+	padding: 40px 100px;
+}
+
+#section3 {
+	background: url(images/coffee.jpg);
+	height: 502px;
+}
+
+.seperator {
+	background: #c59a6d;
+	height: 2px;
+	width: 60px;
+}
+
+.continue {
+	background: center center no-repeat url(images/down-arrow-gold.png);
+	border: solid 1px #c59a6d;
+	display: block;
+	height: 40px;
+	margin: 0 auto;
+	width: 40px;
+}
+
+#section1 .continue {
+	background: center center no-repeat url(images/down-arrow.png);
+}
