@@ -7,14 +7,18 @@ p {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 }
+.clear{
+	clear: both;
+}
 
 .wrap {
 	margin: 0 auto;
 	max-width: 1270px;
+	text-align: center;
 }
 
 #section1 {
-	background: url(images/hero.jpg);
+	background:url("images/hero.jpg") no-repeat scroll left top / 100% 100%;
 	color: #fff;
 	height: 803px;
 }
@@ -36,19 +40,23 @@ p {
 	border: solid 2px #fff;
 	display: inline-block;
 	font-size: 60px;
-	margin: 0 auto;
-	padding: 40px 100px;
+	margin: 0 auto 40px;
+	padding: 30px 100px;
 }
 
 #section3 {
 	background: url(images/coffee.jpg);
 	height: 502px;
+	width: 100%;
+	float: left;
 }
 
 .seperator {
 	background: #c59a6d;
 	height: 2px;
 	width: 60px;
+	margin:33px auto 10px;
+	display:block;
 }
 
 .continue {
@@ -56,10 +64,138 @@ p {
 	border: solid 1px #c59a6d;
 	display: block;
 	height: 40px;
-	margin: 0 auto;
+	margin:0 auto;
 	width: 40px;
 }
 
 #section1 .continue {
 	background: center center no-repeat url(images/down-arrow.png);
+}
+
+#section1 .seperator{
+	margin:0 auto 35px;
+}
+
+#section2 {
+	float: left;
+	width: 100%;
+	padding: 60px 0 80px 0;
+}
+
+#section2 h1,#section4 h1,#section6 h1{
+	text-transform: uppercase;
+	color: #424a51;
+	font-size: 24px;
+}
+
+#section2 p, #section4 p,#section6 p{
+	font: 22px/34px 'Montserrat', sans-serif;
+	padding: 20px 200px;
+
+}
+#section4 {
+	float: left;
+	width: 100%;
+	padding:100px 0 80px 0;
+}
+
+.service{
+	width: 364px;
+	min-height: 410px;
+	float: left;
+	text-align: center;
+	border: 1px solid #8e9397;
+	padding: 100px 15px 0 15px;
+	margin: 150px 0 150px 40px;
+	transition: all 0.3s ease 0s;
+}
+
+#services{
+float: left;
+width: 100%;
+}
+
+.service:first-child{
+	margin-left: 0;
+}
+
+#section4 .service p{
+	padding: 20px 0;
+	color: #424a51;
+}
+.service span{
+	width: 65px;
+	margin: 0 auto;
+	display: block;
+}
+.service .brand-icon{
+	background: url(images/service-brand-icon.png) left bottom no-repeat;
+	height: 64px;
+}
+.service .web-icon{
+	background: url(images/service-web-icon.png) left bottom no-repeat;
+	height: 52px;    
+	margin-top: 15px;
+}
+.service .app-icon{
+	background: url(images/service-app-icon.png) left bottom no-repeat;
+	height:64px;
+}
+.service:hover .brand-icon{
+	background: url(images/service-brand-icon.png) left top no-repeat;
+	height: 64px;
+}
+.service:hover .web-icon{
+	background: url(images/service-web-icon.png) left -24px no-repeat;
+	height: 52px;    
+	margin-top: 15px;
+}
+.service:hover .app-icon{
+	background: url(images/service-app-icon.png) left top no-repeat;
+	height:64px;
+}
+
+#section4 h3{
+	text-transform: uppercase;
+	color: #424a51;
+	font-size: 24px;
+}
+
+#section4 .service:hover h3{
+	color:#c59a6d;
+}
+
+#section4 .service:hover{
+	border:1px solid #c59a6d;
+	padding: 140px 15px 40px 15px;
+	margin-top: 110px;
+}
+
+#section5{
+	background: #282f35;
+	padding: 105px 0;
+	width: 100%;
+	float: left;
+	margin: 20px 0;
+}
+
+#section5 a{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	border: 1px solid #776551;
+	padding:15px 80px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#section5 a:hover{
+	border: 1px solid #fff;
+}
+#section6{
+	float: left;
+	width: 100%;
+	padding: 120px 0;
 }
