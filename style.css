@@ -1,61 +1,8 @@
 /* style.css    */
 /* Coda Club    */
 
-
-/* form reset:  */
-
-//FORM RESET
-
-textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"]{
-
--webkit-box-sizing: border-box;
-
--moz-box-sizing: border-box;
-
-box-sizing: border-box;
-
--webkit-background-clip: padding;
-
--moz-background-clip: padding;
-
-background-clip:padding-box;
-
--webkit-border-radius:0;
-
--moz-border-radius:0;
-
--ms-border-radius:0;
-
--o-border-radius:0;
-
-border-radius:0;
-
--webkit-appearance:none;
-
-background-color:#fff;
-
-color:#000;
-
-outline:0;
-
-margin:0;
-
-padding:0;
-
-text-align: left;
-
-font-size:1em;
-
-height: 1em;
-
-vertical-align: middle;
-
-}
-
-
-
 body,
-p {
+p { 
 	background-position: center top;
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
@@ -139,7 +86,7 @@ p {
 	text-transform: uppercase;
 	color: #424a51;
 	font-size: 24px;
-} 
+}
 
 #section2 p, #section4 p,#section6 p{
 	font: 22px/34px 'Montserrat', sans-serif;
@@ -253,49 +200,117 @@ width: 100%;
 	padding: 120px 0;
 }
 
-#section12 {
-	background: #282f35;
-	color: #fff;
-	float: left;
+#section7{
 	width: 100%;
-	padding: 120px 0;
+	float: left;
 }
+.portfolio{
+	width: 100%;
+	position: relative;
+	float: left;
+}
+.project{
+	width: 380px;
+	height: 360px;
+	overflow: hidden;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.project img{
+	width: 100%;
+	}
+.project .seperator {
+	background: #fff;
+	height: 2px;
+	width: 32px;
+	margin:20px auto;
+	display:block;
+}
+.project .prject-hover {
+    background: url(images/project-hover.png) left top repeat;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 0;
+    padding: 39% 0;
+    position: absolute;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+}
+.project:hover .prject-hover{
+opacity: 1;
+top: 0;
+}
+.prject-hover p{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 18px;
+}
+.prject-hover h4{
+	color: #c59a6d;
+	font-size: 24px;
+	font-weight: lighter;
+    margin: 8px 0;
+}
+#section8{
+	width: 100%;
+	float: left;
+	padding: 115px 0;
+}
+#section8 .button-more{
+	background: #c59a6d;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-decoration: none;
+	padding:16px 22px;
+	display: inline-block;
+	margin-bottom: 65px;
+	border:1px solid transparent;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#section8 .button-more:hover{
+	border:1px solid #c59a6d;
+	background: #fff;
+	color: #c59a6d;
+}
+#section9{
+	background:url("images/partners.png") no-repeat scroll left top / 100% 100%;
+	width: 100%;
+	float: left;
+	height:500px; 
+}
+#section9 h1{
+	margin: 150px 0 50px 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
 
-#section12 input {
-	background: #1e2429;
-	color: #c6c7c9;
-	height: 50px;
-	font-size: 16px;
-	line-height: 50px;
-	padding-left: 22px;
-	width: 760px;
 }
+.logo-section{
+	padding: 30px 220px;
+}
+.logo-section a{
+	width: 150px;
+	float: left;
+	margin: 5px 28px;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.logo-section a:hover{
+	margin-top:-5px;
 
-#section12 input:focus {
-	height: 47px;
-	border-top: 3px;
-}
+	}
 
-.half {
-	width: 360px;
-}
-
-.right {
-	float: right;
-}
-
-#section12::-webkit-input-placeholder {
-   color: red;
-}
-
-#section12:-moz-placeholder { /* Firefox 18- */
-   color: red;  
-}
-
-#section12::-moz-placeholder {  /* Firefox 19+ */
-   color: red;  
-}
-
-#section12:-ms-input-placeholder {  
-color: red;  
-}
