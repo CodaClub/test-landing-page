@@ -199,3 +199,36 @@ width: 100%;
 	width: 100%;
 	padding: 120px 0;
 }
+
+#section12 {
+	background: #282f35;
+	color: #fff;
+	float: left;
+	width: 100%;
+	padding: 120px 0;
+}
+
+#section12 input {
+	background: #1e2429;
+	color: #c6c7c9;
+	height: 50px;
+	font-size: 16px;
+	line-height: 50px;
+	padding-left: 22px;
+}
+
+#section12::-webkit-input-placeholder {
+   color: red;
+}
+
+#section12:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+}
+
+#section12::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+}
+
+#section12:-ms-input-placeholder {  
+   color: red;  
+}
