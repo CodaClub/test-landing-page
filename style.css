@@ -4,7 +4,7 @@
 body,
 p { 
 	background-position: center top;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', 'Arial', sans-serif;
 	margin: 0;
 }
 .clear{
@@ -228,7 +228,7 @@ width: 100%;
 	margin:20px auto;
 	display:block;
 }
-.project .prject-hover {
+.project .project-hover {
     background: url(images/project-hover.png) left top repeat;
     color: #fff;
     width: 100%;
@@ -244,16 +244,16 @@ width: 100%;
     transition: all 0.5s ease;
     
 }
-.project:hover .prject-hover{
+.project:hover .project-hover{
 opacity: 1;
 top: 0;
 }
-.prject-hover p{
+.project-hover p{
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 18px;
 }
-.prject-hover h4{
+.project-hover h4{
 	color: #c59a6d;
 	font-size: 24px;
 	font-weight: lighter;
