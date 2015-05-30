@@ -63,7 +63,8 @@ input[type=button],
 input[type=submit],
 input[type=checkbox],
 input[type=radio],
-select {
+select,
+textarea {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -147,6 +148,14 @@ textarea  {
 	
 	/* Turn off scroll bars in IE unless needed */
 	overflow:auto;
+
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
  
 /* Selects
