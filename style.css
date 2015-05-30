@@ -181,7 +181,7 @@ p {
 }
 
 #section1 {
-	background:url("images/hero.jpg") no-repeat scroll left top / 100% 100%;
+	background:url(images/hero.jpg) no-repeat scroll left top / 100% 100%;
 	color: #fff;
 	height: 803px;
 }
@@ -473,7 +473,7 @@ top: 0;
 }
 
 #section9 {
-	background:url("images/partners.png") no-repeat scroll left top / 100% 100%;
+	background:url(images/partners.png) no-repeat scroll left top / 100% 100%;
 	width: 100%;
 	float: left;
 	height: 500px; 
