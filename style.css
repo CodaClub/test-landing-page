@@ -524,6 +524,40 @@ top: 0;
 	float: left;
 	width: 400px;
 }
+
+#social a {
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 22px;
+	width: 30px;
+	overflow: hidden;
+}
+
+#social a img {
+	position: relative;
+}
+
+#social a:hover img {
+	top: -24px;
+}
+
+#facebook img {
+	left: 10px;
+}
+
+#twitter img {
+	left: -51px;
+}
+
+#vimeo img {
+	left: -112px;
+}
+
+#behance img {
+	left: -173px;
+}
+
 .column2 {
 	float: left;
 	width: 760px;
