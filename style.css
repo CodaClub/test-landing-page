@@ -244,13 +244,17 @@ p {
 	padding: 60px 0 80px 0;
 }
 
-#section2 h1,#section4 h1,#section6 h1 {
+#section2 h1,
+#section4 h1,
+#section6 h1 {
 	text-transform: uppercase;
 	color: #424a51;
 	font-size: 24px;
 }
 
-#section2 p, #section4 p,#section6 p {
+#section2 p, 
+#section4 p,
+#section6 p {
 	font: 22px/34px 'Montserrat', sans-serif;
 	padding: 20px 200px;
 
@@ -261,7 +265,7 @@ p {
 	padding: 100px 0 80px 0;
 }
 
-.service{
+.service {
 	width: 364px;
 	min-height: 410px;
 	float: left;
