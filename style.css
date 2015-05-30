@@ -521,14 +521,31 @@ top: 0;
 	text-align: left;
 }
 
+#section12 h1 {
+	text-align: center;
+}
+
 #section12 input {
 	background: #1e2429;
 	color: #c6c7c9;
 	height: 50px;
 	font-size: 16px;
 	line-height: 50px;
+	margin-bottom: 50px;
 	padding-left: 22px;
-	width: 760px;
+	font-style: italic;
+	width: 738px;
+}
+
+#section12 textarea {
+	background: #1e2429;
+	color: #c6c7c9;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 20px;
+	margin-bottom: 50px;
+	padding: 20px 0 20px 22px;
+	width: 738px;
 }
 
 .content {
@@ -537,6 +554,7 @@ top: 0;
 
 .column1 {
 	float: left;
+	margin-bottom: 50px;
 	width: 400px;
 }
 
@@ -578,34 +596,55 @@ top: 0;
 	width: 760px;
 }
 
-#section12 input {
+fieldset {
+	border: none;
+}
+
+#section12 input,
+#section12 textarea {
 	color: #fff;
 }
 
-#section12 input:focus {
+#section12 input:focus,
+#section12 textarea:focus {
 	background: #1e2429 url(images/input-focus-bg.gif) repeat-x;
 }
 
 #section12 input.half {
-	width: 360px;
+	width: 338px;
 }
 
 .right {
 	float: right;
 }
 
-#section12 input::-webkit-input-placeholder {
+#section12 input::-webkit-input-placeholder,
+#section12 textarea::-webkit-textarea-placeholder {
    color: #c6c7c9;
 }
 
-#section12 input:-moz-placeholder { /* Firefox 18- */
+#section12 input:-moz-placeholder,
+#section12 textarea:-moz-placeholder { /* Firefox 18- */
    color: #c6c7c9;  
 }
 
-#section12 input::-moz-placeholder {  /* Firefox 19+ */
+#section12 input::-moz-placeholder,
+#section12 textarea::-moz-placeholder {  /* Firefox 19+ */
    color: #c6c7c9;  
 }
 
-#section12 input:-ms-input-placeholder {  
+#section12 input:-ms-input-placeholder, 
+#section12 textarea:-ms-textarea-placeholder {  
    color: #c6c7c9;  
+}
+
+#section12 input#send {
+	background-color: #c59a6d;
+	cursor: pointer;
+	height: 50px;
+	float: right;
+	line-height: 50px;
+	padding: 0;
+	text-transform: uppercase;
+	width: 170px;
 }
