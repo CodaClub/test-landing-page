@@ -25,8 +25,7 @@ input,
 label,
 select,
 button,
-textarea
-{
+textarea {
 	margin: 0;
 	border: 0;
 	padding: 0;
@@ -42,8 +41,7 @@ textarea
 }
  
 /* Remove the stupid outer glow in Webkit */
-input:focus
-{
+input:focus {
 	outline: 0;
 }
  
@@ -52,8 +50,7 @@ input:focus
  
 /* All of our custom controls should be what we expect them to be */
 input,
-textarea
-{
+textarea {
 	-webkit-box-sizing:content-box;
 	-moz-box-sizing:content-box;
 	box-sizing:content-box;
@@ -66,8 +63,7 @@ input[type=button],
 input[type=submit],
 input[type=checkbox],
 input[type=radio],
-select
-{
+select {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -89,16 +85,14 @@ input[type=tel],
 input[type=text],
 input[type=time],
 input[type=url],
-input[type=week]
-{
+input[type=week] {
 }
  
 /* Button Controls
 -----------------------------------------------*/
  
 input[type=checkbox],
-input[type=radio]
-{
+input[type=radio] {
 	width: 13px;
 	height: 13px;
 }
@@ -106,8 +100,7 @@ input[type=radio]
 /* File Uploads
 -----------------------------------------------*/
  
-input[type=file]
-{
+input[type=file] {
  
 }
  
@@ -115,8 +108,7 @@ input[type=file]
 -----------------------------------------------*/
  
 /* Make webkit render the search input like a normal text field */
-input[type=search]
-{
+input[type=search] {
 	-webkit-appearance: textfield;
 	-webkit-box-sizing: content-box;
 }
@@ -133,16 +125,14 @@ input[type=search]
 button,
 input[type="reset"],
 input[type="button"],
-input[type="submit"]
-{
+input[type="submit"] {
 	/* Fix IE7 display bug */
 	overflow: visible;
 	width: auto;
 }
  
 /* IE8 and FF freak out if this rule is within another selector */
-::-webkit-file-upload-button
-{	
+::-webkit-file-upload-button {	
 	padding: 0;
 	border: 0;
 	background: none;
@@ -151,8 +141,7 @@ input[type="submit"]
 /* Textarea
 -----------------------------------------------*/
  
-textarea 
-{
+textarea  {
 	/* Move the label to the top */
 	vertical-align: top;
 	
@@ -163,13 +152,11 @@ textarea
 /* Selects
 -----------------------------------------------*/
  
-select
-{
+select {
  
 }
  
-select[multiple] 
-{
+select[multiple] {
 	/* Move the label to the top */
 	vertical-align: top;
 }
@@ -247,7 +234,7 @@ p {
 	background: center center no-repeat url(images/down-arrow.png);
 }
 
-#section1 .seperator{
+#section1 .seperator {
 	margin: 0 auto 35px;
 }
 
@@ -257,13 +244,13 @@ p {
 	padding: 60px 0 80px 0;
 }
 
-#section2 h1,#section4 h1,#section6 h1{
+#section2 h1,#section4 h1,#section6 h1 {
 	text-transform: uppercase;
 	color: #424a51;
 	font-size: 24px;
 }
 
-#section2 p, #section4 p,#section6 p{
+#section2 p, #section4 p,#section6 p {
 	font: 22px/34px 'Montserrat', sans-serif;
 	padding: 20px 200px;
 
@@ -285,68 +272,68 @@ p {
 	transition: all 0.3s ease 0s;
 }
 
-#services{
+#services {
 float: left;
 width: 100%;
 }
 
-.service:first-child{
+.service:first-child {
 	margin-left: 0;
 }
 
-#section4 .service p{
+#section4 .service p {
 	padding: 20px 0;
 	color: #424a51;
 }
-.service span{
+.service span {
 	width: 65px;
 	margin: 0 auto;
 	display: block;
 }
-.service .brand-icon{
+.service .brand-icon {
 	background: url(images/service-brand-icon.png) left bottom no-repeat;
 	height: 64px;
 }
-.service .web-icon{
+.service .web-icon {
 	background: url(images/service-web-icon.png) left bottom no-repeat;
 	height: 52px;    
 	margin-top: 15px;
 }
-.service .app-icon{
+.service .app-icon {
 	background: url(images/service-app-icon.png) left bottom no-repeat;
 	height: 64px;
 }
-.service:hover .brand-icon{
+.service:hover .brand-icon {
 	background: url(images/service-brand-icon.png) left top no-repeat;
 	height: 64px;
 }
-.service:hover .web-icon{
+.service:hover .web-icon {
 	background: url(images/service-web-icon.png) left -24px no-repeat;
 	height: 52px;    
 	margin-top: 15px;
 }
-.service:hover .app-icon{
+.service:hover .app-icon {
 	background: url(images/service-app-icon.png) left top no-repeat;
 	height: 64px;
 }
 
-#section4 h3{
+#section4 h3 {
 	text-transform: uppercase;
 	color: #424a51;
 	font-size: 24px;
 }
 
-#section4 .service:hover h3{
+#section4 .service:hover h3 {
 	color: #c59a6d;
 }
 
-#section4 .service:hover{
+#section4 .service:hover {
 	border: 1px solid #c59a6d;
 	padding: 140px 15px 40px 15px;
 	margin-top: 110px;
 }
 
-#section5{
+#section5 {
 	background: #282f35;
 	padding: 105px 0;
 	width: 100%;
@@ -354,7 +341,7 @@ width: 100%;
 	margin: 20px 0;
 }
 
-#section5 a{
+#section5 a {
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 14px;
@@ -366,25 +353,25 @@ width: 100%;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-#section5 a:hover{
+#section5 a:hover {
 	border: 1px solid #fff;
 }
-#section6{
+#section6 {
 	float: left;
 	width: 100%;
 	padding: 120px 0;
 }
 
-#section7{
+#section7 {
 	width: 100%;
 	float: left;
 }
-.portfolio{
+.portfolio {
 	width: 100%;
 	position: relative;
 	float: left;
 }
-.project{
+.project {
 	width: 20%;
 	height: 270px;
 	overflow: hidden;
@@ -393,7 +380,7 @@ width: 100%;
 	padding: 0;
 	position: relative;
 }
-.project img{
+.project img {
 	width: 100%;
 	}
 .project .seperator {
@@ -419,27 +406,27 @@ width: 100%;
     transition: all 0.5s ease;
     
 }
-.project:hover .project-hover{
+.project:hover .project-hover {
 opacity: 1;
 top: 0;
 }
-.project-hover p{
+.project-hover p {
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 18px;
 }
-.project-hover h4{
+.project-hover h4 {
 	color: #c59a6d;
 	font-size: 24px;
 	font-weight: lighter;
     margin: 8px 0;
 }
-#section8{
+#section8 {
 	width: 100%;
 	float: left;
 	padding: 115px 0;
 }
-#section8 .button-more{
+#section8 .button-more {
 	background: #c59a6d;
 	color: #FFF;
 	text-transform: uppercase;
@@ -454,18 +441,18 @@ top: 0;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-#section8 .button-more:hover{
+#section8 .button-more:hover {
 	border: 1px solid #c59a6d;
 	background: #fff;
 	color: #c59a6d;
 }
-#section9{
+#section9 {
 	background:url("images/partners.png") no-repeat scroll left top / 100% 100%;
 	width: 100%;
 	float: left;
 	height: 500px; 
 }
-#section9 h1{
+#section9 h1 {
 	margin: 150px 0 50px 0;
 	color: #fff;
 	text-transform: uppercase;
@@ -475,7 +462,7 @@ top: 0;
 .logo-section{
 	padding: 30px 220px;
 }
-.logo-section a{
+.logo-section a {
 	width: 150px;
 	float: left;
 	margin: 5px 28px;
@@ -484,7 +471,7 @@ top: 0;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-.logo-section a:hover{
+.logo-section a:hover {
 	margin-top: -5px;
 
 	}
