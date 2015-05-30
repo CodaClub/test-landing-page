@@ -168,6 +168,7 @@ p {
 	font-family: 'Montserrat', 'Arial', sans-serif;
 	margin: 0;
 }
+
 .clear{
 	clear: both;
 }
@@ -259,6 +260,7 @@ p {
 	padding: 20px 200px;
 
 }
+
 #section4 {
 	float: left;
 	width: 100%;
@@ -289,33 +291,40 @@ width: 100%;
 	padding: 20px 0;
 	color: #424a51;
 }
+
 .service span {
 	width: 65px;
 	margin: 0 auto;
 	display: block;
 }
+
 .service .brand-icon {
 	background: url(images/service-brand-icon.png) left bottom no-repeat;
 	height: 64px;
 }
+
 .service .web-icon {
 	background: url(images/service-web-icon.png) left bottom no-repeat;
 	height: 52px;    
 	margin-top: 15px;
 }
+
 .service .app-icon {
 	background: url(images/service-app-icon.png) left bottom no-repeat;
 	height: 64px;
 }
+
 .service:hover .brand-icon {
 	background: url(images/service-brand-icon.png) left top no-repeat;
 	height: 64px;
 }
+
 .service:hover .web-icon {
 	background: url(images/service-web-icon.png) left -24px no-repeat;
 	height: 52px;    
 	margin-top: 15px;
 }
+
 .service:hover .app-icon {
 	background: url(images/service-app-icon.png) left top no-repeat;
 	height: 64px;
@@ -357,9 +366,11 @@ width: 100%;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+
 #section5 a:hover {
 	border: 1px solid #fff;
 }
+
 #section6 {
 	float: left;
 	width: 100%;
@@ -370,11 +381,13 @@ width: 100%;
 	width: 100%;
 	float: left;
 }
+
 .portfolio {
 	width: 100%;
 	position: relative;
 	float: left;
 }
+
 .project {
 	width: 20%;
 	height: 270px;
@@ -384,9 +397,11 @@ width: 100%;
 	padding: 0;
 	position: relative;
 }
+
 .project img {
 	width: 100%;
-	}
+}
+
 .project .seperator {
 	background: #fff;
 	height: 2px;
@@ -394,6 +409,7 @@ width: 100%;
 	margin:20px auto;
 	display: block;
 }
+
 .project .project-hover {
     background: url(images/project-hover.png) left top repeat;
     color: #fff;
@@ -408,28 +424,32 @@ width: 100%;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    
 }
+
 .project:hover .project-hover {
 opacity: 1;
 top: 0;
 }
+
 .project-hover p {
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 18px;
 }
+
 .project-hover h4 {
 	color: #c59a6d;
 	font-size: 24px;
 	font-weight: lighter;
     margin: 8px 0;
 }
+
 #section8 {
 	width: 100%;
 	float: left;
 	padding: 115px 0;
 }
+
 #section8 .button-more {
 	background: #c59a6d;
 	color: #FFF;
@@ -445,11 +465,13 @@ top: 0;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+
 #section8 .button-more:hover {
 	border: 1px solid #c59a6d;
 	background: #fff;
 	color: #c59a6d;
 }
+
 #section9 {
 	background:url("images/partners.png") no-repeat scroll left top / 100% 100%;
 	width: 100%;
@@ -461,11 +483,12 @@ top: 0;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 24px;
-
 }
+
 .logo-section{
 	padding: 30px 220px;
 }
+
 .logo-section a {
 	width: 150px;
 	float: left;
@@ -475,10 +498,11 @@ top: 0;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+
 .logo-section a:hover {
 	margin-top: -5px;
+}
 
-	}
 #section10 {
 	float: left;
 	width: 100%;
@@ -584,3 +608,4 @@ top: 0;
 
 #section12 input:-ms-input-placeholder {  
    color: #c6c7c9;  
+}
