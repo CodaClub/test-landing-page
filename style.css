@@ -169,6 +169,10 @@ p {
 	margin: 0;
 }
 
+a {
+	cursor: pointer;
+}
+
 .clear{
 	clear: both;
 }
@@ -507,6 +511,44 @@ top: 0;
 	float: left;
 	width: 100%;
 	padding: 60px 0 80px 0;
+}
+
+#section11 {
+	color: #fff;
+	background: #282f35 url(images/macbook.jpg) no-repeat center top;
+	float: left;
+	width: 100%;
+	padding: 60px 0 80px 0;
+}
+
+#tweet {
+	font-style: italic;
+	line-height: 30px;
+	margin: 50px auto;
+	max-width: 620px;
+}
+
+#author {
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+#tweet-slider a {
+	background: none;
+	border: 1px solid #c59a6d;
+	display: inline-block;
+	height: 8px;
+	margin-left: 15px;
+	width: 8px;
+}
+
+#tweet-slider a:first-child {
+	margin-left: 0;
+}
+
+#tweet-slider a.active,
+#tweet-slider a:hover {
+	background: #c59a6d;
 }
 
 #section12 {
