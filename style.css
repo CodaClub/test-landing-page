@@ -529,6 +529,10 @@ top: 0;
 	width: 760px;
 }
 
+#section12 input {
+	color: #fff;
+}
+
 #section12 input:focus {
 	background: #1e2429 url(images/input-focus-bg.gif) repeat-x;
 }
@@ -541,17 +545,17 @@ top: 0;
 	float: right;
 }
 
-#section12::-webkit-input-placeholder {
-   color: red;
+#section12 input::-webkit-input-placeholder {
+   color: #c6c7c9;
 }
 
-#section12:-moz-placeholder { /* Firefox 18- */
-   color: red;  
+#section12 input:-moz-placeholder { /* Firefox 18- */
+   color: #c6c7c9;  
 }
 
-#section12::-moz-placeholder {  /* Firefox 19+ */
-   color: red;  
+#section12 input::-moz-placeholder {  /* Firefox 19+ */
+   color: #c6c7c9;  
 }
 
-#section12:-ms-input-placeholder {  
-   color: red;  
+#section12 input:-ms-input-placeholder {  
+   color: #c6c7c9;  
