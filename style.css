@@ -187,8 +187,9 @@ p {
 
 .wrap {
 	margin: 0 auto;
-	max-width: 1270px;
+	max-width: 1220px;
 	text-align: center;
+	padding: 25px 0;
 }
 
 #section1 {
