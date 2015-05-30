@@ -259,7 +259,8 @@ a {
 
 #section2 p, 
 #section4 p,
-#section6 p {
+#section6 p, 
+#section10 p{
 	font: 22px/34px 'Montserrat', sans-serif;
 	padding: 20px 200px;
 
@@ -511,6 +512,44 @@ top: 0;
 	float: left;
 	width: 100%;
 	padding: 60px 0 80px 0;
+}
+#about-text {
+	font: 22px/34px 'Montserrat', sans-serif;
+	padding:20px 200px;
+}
+.team-member {
+	display: inline-block;
+	margin:25px 25px;
+}
+.team-member a {
+	width: 104px;
+	height: 104px;
+	overflow: hidden;
+	display: block;
+}
+.team-member a img {
+	width: 210px;
+	height: 316px;
+	position: relative;
+}
+#mike img{
+	top: 0;
+	left: 0;
+}
+#taylor img{
+	top: -106px;
+}
+#james img{
+	top: -214px;
+}
+.team-member:hover #mike img{
+	left: -106px;
+}
+.team-member:hover #taylor img{
+	left: -106px;
+}
+.team-member:hover #james img{
+	left: -106px;
 }
 
 #section11 {
