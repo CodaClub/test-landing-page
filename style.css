@@ -1,6 +1,58 @@
 /* style.css    */
 /* Coda Club    */
 
+
+/* form reset:  */
+
+//FORM RESET
+
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"]{
+
+-webkit-box-sizing: border-box;
+
+-moz-box-sizing: border-box;
+
+box-sizing: border-box;
+
+-webkit-background-clip: padding;
+
+-moz-background-clip: padding;
+
+background-clip:padding-box;
+
+-webkit-border-radius:0;
+
+-moz-border-radius:0;
+
+-ms-border-radius:0;
+
+-o-border-radius:0;
+
+border-radius:0;
+
+-webkit-appearance:none;
+
+background-color:#fff;
+
+color:#000;
+
+outline:0;
+
+margin:0;
+
+padding:0;
+
+text-align: left;
+
+font-size:1em;
+
+height: 1em;
+
+vertical-align: middle;
+
+}
+
+
 body,
 p { 
 	background-position: center top;
@@ -314,3 +366,48 @@ top: 0;
 
 	}
 
+#section12 {
+	background: #282f35;
+	color: #fff;
+	float: left;
+	width: 100%;
+	padding: 120px 0;
+}
+
+#section12 input {
+	background: #1e2429;
+	color: #c6c7c9;
+	height: 50px;
+	font-size: 16px;
+	line-height: 50px;
+	padding-left: 22px;
+	width: 760px;
+}
+
+#section12 input:focus {
+	height: 47px;
+	border-top: 3px;
+}
+
+.half {
+	width: 360px;
+}
+
+.right {
+	float: right;
+}
+
+#section12::-webkit-input-placeholder {
+   color: red;
+}
+
+#section12:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+}
+
+#section12::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+}
+
+#section12:-ms-input-placeholder {  
+   color: red;  
