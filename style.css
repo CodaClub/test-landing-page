@@ -213,7 +213,8 @@ a {
 	text-transform: uppercase;
 }
 
-#slogan {
+#slogan,
+.fff-box {
 	border: solid 2px #fff;
 	display: inline-block;
 	font-size: 36px;
@@ -221,9 +222,15 @@ a {
 	padding: 30px 100px;
 }
 
+.fff-box {
+	margin: 160px auto 40px;
+	font-size: 24px;
+	color: #fff;
+}
+
 #section3 {
-	background: url(images/coffee.jpg);
-	height: 502px;
+	background: url(images/c.jpg);
+	height: 501px;
 	width: 100%;
 	float: left;
 }
@@ -245,7 +252,8 @@ a {
 	width: 40px;
 }
 
-#section1 .continue {
+#section1 .continue,
+#section3 .continue {
 	background: center center no-repeat url(images/down-arrow.png);
 }
 
@@ -288,12 +296,12 @@ a {
 
 .service {
 	max-width: 364px;
-	min-height: 410px;
+	min-height: 250px;
 	display: inline-block;
 	text-align: center;
 	border: 1px solid #8e9397;
-	padding: 100px 15px 0 15px;
-	margin: 150px 0 150px 40px;
+	padding: 60px 15px 0 15px;
+	margin: 100px 0 150px 40px;
 	transition: all 0.3s ease 0s;
 	vertical-align: top;
 	width: 24%;
@@ -613,7 +621,7 @@ top: 0;
 	color: #fff;
 	float: left;
 	width: 100%;
-	padding: 120px 0;
+	padding: 120px 0 33px;
 }
 
 #section12 .wrap {
@@ -652,9 +660,7 @@ top: 0;
 }
 
 .column1 {
-	float: left;
-	margin-bottom: 50px;
-	width: 400px;
+	margin: 0 auto 50px;
 }
 
 #social a {
@@ -693,6 +699,7 @@ top: 0;
 .column2 {
 	float: left;
 	width: 760px;
+	display: none;
 }
 
 fieldset {
@@ -715,6 +722,11 @@ fieldset {
 
 .right {
 	float: right;
+}
+
+#section12 a {
+	color: #c59a6d;
+	text-decoration: none;
 }
 
 #section12 input::-webkit-input-placeholder,
@@ -746,4 +758,14 @@ fieldset {
 	padding: 0;
 	text-transform: uppercase;
 	width: 170px;
+}
+
+footer {
+	min-height: 200px;
+	position: relative;
+}
+
+footer p {
+	position: absolute;
+	bottom: 5px;
 }
