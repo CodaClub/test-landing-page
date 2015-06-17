@@ -213,11 +213,10 @@ a {
 	text-transform: uppercase;
 }
 
-#websites {
+#slogan {
 	border: solid 2px #fff;
 	display: inline-block;
-	font-size: 60px;
-	letter-spacing: 1px;
+	font-size: 36px;
 	margin: 0 auto 40px;
 	padding: 30px 100px;
 }
