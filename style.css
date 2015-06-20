@@ -273,6 +273,7 @@ a {
 
 #section2 h1,
 #section4 h1,
+.section4 h1,
 #section6 h1 {
 	text-transform: uppercase;
 	color: #424a51;
@@ -280,7 +281,8 @@ a {
 }
 
 #section2 p, 
-#section4 p,
+#section4 p, 
+.section4 p,
 #section6 p, 
 #section10 p{
 	color: #424a51;
@@ -289,7 +291,8 @@ a {
 
 }
 
-#section4 {
+#section4,
+.section4 {
 	float: left;
 	width: 100%;
 	padding: 100px 0 80px 0;
@@ -378,7 +381,8 @@ width: 100%;
 	margin-top: 110px;
 }
 
-#section5 {
+#section5, 
+.section5 {
 	background: #282f35;
 	padding: 105px 0;
 	width: 100%;
@@ -386,7 +390,8 @@ width: 100%;
 	margin: 20px 0;
 }
 
-#section5 a {
+#section5 a, 
+.section5 a {
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 14px;
@@ -399,7 +404,8 @@ width: 100%;
     transition: all 0.5s ease;
 }
 
-#section5 a:hover {
+#section5 a:hover, 
+.section5 a:hover {
 	border: 1px solid #fff;
 }
 
