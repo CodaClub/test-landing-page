@@ -776,3 +776,50 @@ footer p {
 	position: absolute;
 	bottom: 5px;
 }
+
+/*=======Media Queries=====*/
+@media (max-width: 1024px){
+	footer p {
+    	left: 50%;
+    	margin-left: -100px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width : 767px) {
+	#slogan, 
+	.fff-box {
+		box-sizing:border-box;
+		padding: 30px 50px;
+		width: 100%;
+	}
+
+	#section2 p, 
+	#section4 p, 
+	.section4 p, 
+	#section6 p, 
+	#section10 p {
+		padding: 20px;
+	}
+
+	#section5 a, 
+	.section5 a {
+		display: inline-block;
+		padding: 15px 70px;
+	}
+
+	.service {
+		box-sizing:border-box;
+		margin: 100px 0;
+		width: 100%;
+	}
+
+	.service:first-child {
+		margin-bottom: 0;
+		margin-top: 100px;
+	}
+
+	.service:last-child {
+		margin-bottom: 150px;
+		margin-top: 0;
+	}
+}
