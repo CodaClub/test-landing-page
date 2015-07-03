@@ -213,7 +213,8 @@ a {
 	text-transform: uppercase;
 }
 
-#slogan {
+#slogan,
+.fff-box {
 	border: solid 2px #fff;
 	display: inline-block;
 	font-size: 36px;
@@ -221,9 +222,15 @@ a {
 	padding: 30px 100px;
 }
 
+.fff-box {
+	margin: 160px auto 40px;
+	font-size: 24px;
+	color: #fff;
+}
+
 #section3 {
-	background: url(images/coffee.jpg);
-	height: 502px;
+	background: url(images/c.jpg);
+	height: 501px;
 	width: 100%;
 	float: left;
 }
@@ -245,7 +252,8 @@ a {
 	width: 40px;
 }
 
-#section1 .continue {
+#section1 .continue,
+#section3 .continue {
 	background: center center no-repeat url(images/down-arrow.png);
 }
 
@@ -265,6 +273,7 @@ a {
 
 #section2 h1,
 #section4 h1,
+.section4 h1,
 #section6 h1 {
 	text-transform: uppercase;
 	color: #424a51;
@@ -272,15 +281,18 @@ a {
 }
 
 #section2 p, 
-#section4 p,
+#section4 p, 
+.section4 p,
 #section6 p, 
 #section10 p{
+	color: #424a51;
 	font: 22px/34px 'Montserrat', sans-serif;
 	padding: 20px 200px;
 
 }
 
-#section4 {
+#section4,
+.section4 {
 	float: left;
 	width: 100%;
 	padding: 100px 0 80px 0;
@@ -288,12 +300,12 @@ a {
 
 .service {
 	max-width: 364px;
-	min-height: 410px;
+	min-height: 250px;
 	display: inline-block;
 	text-align: center;
 	border: 1px solid #8e9397;
-	padding: 100px 15px 0 15px;
-	margin: 150px 0 150px 40px;
+	padding: 60px 15px 0 15px;
+	margin: 100px 0 150px 40px;
 	transition: all 0.3s ease 0s;
 	vertical-align: top;
 	width: 24%;
@@ -369,7 +381,8 @@ width: 100%;
 	margin-top: 110px;
 }
 
-#section5 {
+#section5, 
+.section5 {
 	background: #282f35;
 	padding: 105px 0;
 	width: 100%;
@@ -377,7 +390,8 @@ width: 100%;
 	margin: 20px 0;
 }
 
-#section5 a {
+#section5 a, 
+.section5 a {
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 14px;
@@ -390,7 +404,8 @@ width: 100%;
     transition: all 0.5s ease;
 }
 
-#section5 a:hover {
+#section5 a:hover, 
+.section5 a:hover {
 	border: 1px solid #fff;
 }
 
@@ -613,7 +628,7 @@ top: 0;
 	color: #fff;
 	float: left;
 	width: 100%;
-	padding: 120px 0;
+	padding: 120px 0 33px;
 }
 
 #section12 .wrap {
@@ -652,9 +667,7 @@ top: 0;
 }
 
 .column1 {
-	float: left;
-	margin-bottom: 50px;
-	width: 400px;
+	margin: 0 auto 50px;
 }
 
 #social a {
@@ -693,6 +706,7 @@ top: 0;
 .column2 {
 	float: left;
 	width: 760px;
+	display: none;
 }
 
 fieldset {
@@ -715,6 +729,11 @@ fieldset {
 
 .right {
 	float: right;
+}
+
+#section12 a {
+	color: #c59a6d;
+	text-decoration: none;
 }
 
 #section12 input::-webkit-input-placeholder,
@@ -746,4 +765,61 @@ fieldset {
 	padding: 0;
 	text-transform: uppercase;
 	width: 170px;
+}
+
+footer {
+	min-height: 200px;
+	position: relative;
+}
+
+footer p {
+	position: absolute;
+	bottom: 5px;
+}
+
+/*=======Media Queries=====*/
+@media (max-width: 1024px){
+	footer p {
+    	left: 50%;
+    	margin-left: -100px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width : 767px) {
+	#slogan, 
+	.fff-box {
+		box-sizing:border-box;
+		padding: 30px 50px;
+		width: 100%;
+	}
+
+	#section2 p, 
+	#section4 p, 
+	.section4 p, 
+	#section6 p, 
+	#section10 p {
+		padding: 20px;
+	}
+
+	#section5 a, 
+	.section5 a {
+		display: inline-block;
+		padding: 15px 70px;
+	}
+
+	.service {
+		box-sizing:border-box;
+		margin: 100px 0;
+		width: 100%;
+	}
+
+	.service:first-child {
+		margin-bottom: 0;
+		margin-top: 100px;
+	}
+
+	.service:last-child {
+		margin-bottom: 150px;
+		margin-top: 0;
+	}
 }
